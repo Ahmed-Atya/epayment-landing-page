@@ -1,0 +1,230 @@
+
+/*Global Classes*/
+@font-face {
+ font-family:montserrat-font;
+ src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+ font-family:montserrat-bold;
+ src: url(../fonts/Montserrat-Bold.otf);
+}
+@font-face {
+ font-family:VarelaRound-Regular;
+ src: url(../fonts/VarelaRound-Regular.otf);
+}
+/*End Global Classes*/
+header {
+ background:url("../images/about/about-header.png");
+ background-position: center;
+ background-size: cover;
+ -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+ width: 100%;
+ position: relative;
+ min-height: 130px
+}
+header .navbar-default {
+background-color: transparent;
+border: none;
+}
+header .navbar-default .navbar-nav > li > a {
+color: #FFF;
+margin-top: 30px;
+font-weight: bold;
+text-transform: uppercase;
+}
+header .navbar-default .navbar-nav > li > a:hover,
+header .navbar-default .navbar-nav > li > a:focus{
+ color: #ffde1a
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #3fb061;
+    background-color: #ffde1a;
+}
+.navbar-toggle .icon-bar {
+  background-color: #ffde1a !important;
+}
+.navbar-toggle .icon-bar:hover,
+.navbar-toggle .icon-bar:focus,
+ {
+  background-color:#328f4e !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ffde1a;
+    margin-top: 22px
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none
+}
+header .navbar .navbar-brand img{
+    width: 90px;
+    height: 57px
+}
+/*End Team header*/
+/*Start Our-team*/
+.our-team{
+  padding: 60px 0
+}
+.our-team h1{
+  color: #36ad5b;
+  font-family: montserrat-bold;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.our-team .team{
+  background-color: #f1f1f5;
+  margin-bottom: 20px;
+  padding: 10px 45px 10px 80px;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  margin-bottom: 30px
+}
+.our-team .team h3{
+  color: #36ad5b;
+  font-family: montserrat-bold;
+  margin-bottom: 0
+}
+.our-team .team h5{
+  color: #acb1b9;
+  font-family: VarelaRound-Regular;
+}
+.our-team .team img{
+  max-width: 200px;
+  height: 130px;
+  border: 4px solid #36ad5b;
+  max-height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 66px;
+  left: -56px;
+}
+.our-team .team .cover-pic {
+  background-color: rgba(255, 222, 0, .6);
+  display: inline-block;
+  width: 126px;
+  height: 123px;
+  border-radius: 50%;
+  line-height: 163px;
+  position: absolute;
+  top: 70px;
+  left: -51px;
+}
+.our-team .team p{
+  font-family: VarelaRound-Regular;
+  color: #666769;
+  line-height: 1.5;
+  margin-top: 15px
+}
+/*
+/*End Our-team*/
+/*Start Team Footer*/
+footer{
+  background-image: url("../images/footer-bg.png");
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  width: 100%;
+  position: relative;
+  min-height: 360px;
+  color: #FFF;
+}
+footer .overlay{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-image:url("../images/add-shape-4.png");
+ background-position: center;
+ background-size: cover;
+ -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+ color: #FFF;
+ padding: 120px 0
+}
+footer .connect{
+  margin-bottom: 25px;
+  max-width: 100%;
+  cursor: pointer;
+}
+footer .connect img{
+  width: 100px;
+  height: 67px;
+  margin-bottom: 25px;
+}
+footer .connect .links{
+  margin-bottom: 25px;
+}
+footer .connect .links i{
+  margin-right: 20px
+}
+footer .connect p{
+  color: #d6d6d6;
+  font-family: VarelaRound-Regular;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+footer .sitemap{
+  margin-bottom: 25px
+}
+footer .sitemap li{
+  font-family: VarelaRound-Regular;
+  color: #d6d6d6;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+footer .sitemap li a{
+  color: #d6d6d6;
+
+}
+footer form{
+  background-color:#f1f1f5;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  padding: 0 25px;
+  position: absolute;
+  top: -180px;
+}
+footer form h3{
+  font-family: montserrat-font;
+  font-size: 29px;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+  color: #36ad5b;
+  margin-bottom: 20px
+}
+footer form input[type="text"],
+footer form input[type="email"]{
+  border: none;
+  width: 93%;
+  margin-bottom: 15px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 8px
+}
+footer form textarea{
+  border: none;
+  padding-left: 10px;
+  resize: none
+}
+footer form input[type="submit"]{
+  background-color: #36ad5b;
+  color: #e5e8e6;
+  margin-top: 12px;
+  border: none;
+  padding: 7px 60px;
+  border-radius: 13px
+}
+/*End Team Footer*/

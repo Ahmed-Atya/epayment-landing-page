@@ -1,0 +1,300 @@
+
+/*Global Classes*/
+@font-face {
+ font-family:montserrat-font;
+ src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+ font-family:montserrat-bold;
+ src: url(../fonts/Montserrat-Bold.otf);
+}
+@font-face {
+ font-family:VarelaRound-Regular;
+ src: url(../fonts/VarelaRound-Regular.otf);
+}
+/*End Global Classes*/
+header {
+ background:url("../images/about/about-header.png");
+ background-position: center;
+ background-size: cover;
+ -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+ width: 100%;
+ position: relative;
+ min-height: 130px
+}
+header .navbar-default {
+background-color: transparent;
+border: none;
+}
+header .navbar-default .navbar-nav > li > a {
+color: #FFF;
+margin-top: 30px;
+font-weight: bold;
+text-transform: uppercase;
+}
+header .navbar-default .navbar-nav > li > a:hover,
+header .navbar-default .navbar-nav > li > a:focus{
+ color: #ffde1a
+}
+.navbar-toggle .icon-bar {
+  background-color: #ffde1a !important;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #3fb061;
+    background-color: #ffde1a;
+}
+.navbar-toggle .icon-bar:hover,
+.navbar-toggle .icon-bar:focus,
+ {
+  background-color:#328f4e !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ffde1a;
+    margin-top: 22px
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none
+}
+header .navbar .navbar-brand img{
+    width: 90px;
+    height: 57px
+}
+/*End About header*/
+/*Start about us section*/
+.about-us{
+  padding: 45px 0;
+}
+.about-us h2{
+font-family: montserrat-bold;
+color: #36ad5b;
+margin-bottom: 40px;
+font-size: 41px;
+letter-spacing: 1px;
+}
+.about-us .head-gray{
+  background-color: #f1f1f5;
+  padding: 16px;
+  margin-bottom: 30px
+}
+.about-us .head-white{
+ padding: 16px;
+ margin-bottom: 30px
+}
+.about-us .head-white p{
+ font-family: VarelaRound-Regular;
+ color: #969699;
+ line-height: 1.5;
+}
+.about-us .head-gray p{
+ font-family: VarelaRound-Regular;
+ color: #969699;
+ line-height: 1.5;
+}
+.about-us .head-gray p:first-child{margin-bottom: 25px}
+.about-us .head-white p:first-child{margin-bottom: 43px}
+/*End about us section*/
+/*Start features Section*/
+.features{
+  background-image: url("../images/about/features-bg.png");
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  width: 100%;
+  position: relative;
+  min-height: 750px;
+  color: #FFF;
+  margin-bottom: 150px
+}
+.features .overlay{
+ position: absolute;
+ top: -6px;
+ left: 0;
+ width: 100%;
+ height: 101%;
+ background-image:url("../images/about/features.png");
+ background-position: center;
+ background-size: cover;
+ -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  padding: 60px 0
+}
+.features h2{
+  font-family: montserrat-font;
+  font-size: 34px;
+  letter-spacing: 2px;
+  color: #e3f7e8;
+  margin-bottom: 25px
+}
+.features .feat{
+  margin-bottom: 25px;
+  margin-top: 18px;
+  display: inline-block;
+}
+.features .feat .cover-pic{
+  background-color: #ffde00;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  line-height: 90px;
+}
+.features .feat h3{
+  font-family: montserrat-bold;
+  color: #ffde1a;
+  margin-bottom: 25px
+}
+.features .feat p{
+  font-family: VarelaRound-Regular;
+  color: #e3f7e8;
+  line-height: 1.5
+}
+/*End features Section*/
+/*Start user-features Section*/
+.user-features{
+  padding: 60px 0;
+  margin-bottom: 80px
+}
+.user-features h2{
+  font-family: montserrat-font;
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: #36ad5b;
+  margin-bottom: 35px
+}
+.user-features .feat{
+  margin-bottom: 25px;
+  margin-top: 18px
+}
+.user-features .feat .cover-pic{
+  background-color: #ffde00;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  line-height: 90px;
+}
+.user-features .feat h3{
+  font-family: montserrat-bold;
+  color: #36ad5b;
+  margin-bottom: 25px
+}
+.user-features .feat p{
+  font-family: VarelaRound-Regular;
+  color: #68686a;
+  line-height: 1.5
+}
+/*End user-features Section*/
+/*Start abou Footer*/
+footer{
+  background-image: url("../images/footer-bg.png");
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  width: 100%;
+  position: relative;
+  min-height: 360px;
+  color: #FFF;
+}
+footer .overlay{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-image:url("../images/add-shape-4.png");
+ background-position: center;
+ background-size: cover;
+ -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+ color: #FFF;
+ padding: 120px 0
+}
+footer .connect{
+  margin-bottom: 25px;
+  max-width: 100%;
+  cursor: pointer;
+}
+footer .connect img{
+  width: 100px;
+  height: 67px;
+  margin-bottom: 25px;
+}
+footer .connect .links{
+  margin-bottom: 25px;
+}
+footer .connect .links i{
+  margin-right: 20px
+}
+footer .connect p{
+  color: #d6d6d6;
+  font-family: VarelaRound-Regular;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+footer .sitemap{
+  margin-bottom: 25px
+}
+footer .sitemap li{
+  font-family: VarelaRound-Regular;
+  color: #d6d6d6;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+footer .sitemap li a{
+  color: #d6d6d6;
+
+}
+footer form{
+  background-color:#f1f1f5;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  padding: 0 25px;
+  position: absolute;
+  top: -180px;
+}
+footer form h3{
+  font-family: montserrat-font;
+  font-size: 29px;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+  color: #36ad5b;
+  margin-bottom: 20px
+}
+footer form input[type="text"],
+footer form input[type="email"]{
+  border: none;
+  width: 93%;
+  margin-bottom: 15px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 8px
+}
+footer form textarea{
+  border: none;
+  padding-left: 10px;
+  resize: none
+}
+footer form input[type="submit"]{
+  background-color: #36ad5b;
+  color: #e5e8e6;
+  margin-top: 12px;
+  border: none;
+  padding: 7px 60px;
+  border-radius: 13px
+}
+/*End Footer*/
